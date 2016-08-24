@@ -13,12 +13,12 @@ var opts = {
     })
 };
 
-bot.getMe().then(function(me)
-{
-    console.log('Hello! My name is %s!', me.first_name);
-    console.log('My id is %s.', me.id);
-    console.log('And my username is @%s.', me.username);
-});
+//bot.getMe().then(function(me)
+//{
+//    console.log('Hello! My name is %s!', me.first_name);
+//    console.log('My id is %s.', me.id);
+//    console.log('And my username is @%s.', me.username);
+//});
 
 
 bot.on('text', function(msg)
