@@ -1,7 +1,7 @@
 var TelegramBot = require('node-telegram-bot-api');
 //var token = '241541370:AAFDmurmyFNvxGGtbnZZz-LSS9QARvKDJtk';  //ProstoZBot
 var token = '123317922:AAHeGHkYrGqFmDqQDmKtS1E5IBkrUbDgQO4';  //BackBot
-var botOptions = { polling: true};
+var botOptions = { polling: false};
 var bot = new TelegramBot(token, botOptions);
 var opts = {
     reply_markup: JSON.stringify({
